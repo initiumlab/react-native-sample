@@ -1,0 +1,36 @@
+PODS:
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - React/Core (0.38.1)
+  - React/RCTImage (0.38.1):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.38.1):
+    - React/Core
+  - React/RCTText (0.38.1):
+    - React/Core
+  - React/RCTWebSocket (0.38.1):
+    - React/Core
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+
+SPEC CHECKSUMS:
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  React: 2c6b27dcaea89b3d3398df8b598330fd18abbe46
+
+PODFILE CHECKSUM: 41e525813526a01c55ed882b06fd173f4bf3ba92
+
+COCOAPODS: 1.1.1
